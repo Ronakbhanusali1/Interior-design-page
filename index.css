@@ -1,0 +1,265 @@
+*{
+
+    padding: 0;
+    margin: 0;
+}
+
+body {
+background: url(./photos/background.jpg);
+background-repeat: no-repeat;
+/* background-position: center; */
+background-size: cover;
+width: 100%;
+height: 100%;
+  
+
+}
+
+body, html {
+    height: 100%;
+    width:100%;
+    overflow-x:hidden;
+}
+
+
+nav {
+
+    display: flex;
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: 'poppins';
+    align-items: center;
+    margin-top: 35px;
+    /* gap: rem; */
+}
+
+.nav-items {
+
+    display: flex;
+    /* font-style: 30px; */
+    gap: 3rem;
+    font-family: 'poppins';
+    margin-left: 550px;
+}
+
+.calling {
+
+    margin-left: 50px;
+}
+
+
+
+.nav-line {
+    position: absolute;
+    background-color: white;
+    width: 800px;
+    height: 2px;
+    left: 43.5rem;
+    top: 8rem;
+    /* margin-top: 200px; */
+}
+
+.button {
+
+    border: 3px solid white ;
+    border-radius: 50px;
+    width: 200px;
+    font-size: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+    font-family: 'poppins';
+    font-weight: bold;
+    margin-top: 70px;
+}
+
+.button:hover {
+
+    background-color: black;
+    /* color: #00233C; */
+}
+
+.left-section {
+
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+.left-section h1 {
+
+    color: white;
+    font-family: 'poppins';
+    font-size: 65px;
+    font-weight: bold;
+
+
+}
+
+
+.puzzle-container {
+
+    background-color: white;
+    border-radius: 50px;
+    padding: 3px 35px;
+    width: 50px;
+    height: 50px;
+}
+
+.puzzle-container img {
+
+    height: 35px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.Puzzle-div {
+
+    position: absolute;
+    top: 230px;
+    right: 130px;
+    background-color: rgba(0, 0, 1, 0.3);
+    color: white;
+    padding: 25px 50px;
+    font-family: 'poppins';
+    font-size: 15px;
+
+}
+
+.Puzzle-div h4 {
+
+    margin-top: 10px;
+}
+
+.Circle-line {
+
+    position: absolute;
+    right: 180px;
+    top: 470px;
+
+}
+
+.stick {
+    
+
+    height: 1px;
+    width: 85px;
+    background-color: white;
+    -webkit-transform: rotate(90deg);
+    position: absolute;
+    top: -36px;
+    left: -33px;
+}
+
+.Bulb-div {
+
+    position: absolute;
+    top: 685px;
+    right: 330px;
+    background-color: rgba(0, 0, 1, 0.3);
+    color: white;
+    padding: 25px 50px;
+    font-family: 'poppins';
+    font-size: 15px;
+
+}
+
+.Bulb-container {
+
+    background-color: white;
+    border-radius: 50px;
+    padding: 3px 35px;
+    width: 50px;
+    height: 50px;
+}
+
+.Bulb-container img {
+
+    height: 35px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.Bulb-div h4 {
+
+    margin-top: 10px;
+}
+
+
+
+
+
+.BulbCircle-line {
+
+    position: absolute;
+    right: 200px;
+    top: 750px;
+    /* right: 180px;
+    top: 470px; */
+
+}
+
+.Bulbstick {
+    
+
+    height: 1px;
+    width: 120px;
+    background-color: white;
+    /* -webkit-transform: rotate(90deg); */
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    /* top: -36px;
+    left: -33px; */
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+
+   
+
+   body {
+    background: url(../assets/rm405-c04b_1.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+   }
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
